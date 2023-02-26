@@ -170,7 +170,8 @@
               </tr>
               <tr>
                 <td>
-                  <span class="infoData" title="机型全称" id="selected_typelong"></span>
+                  <span class="infoHeading" title="机型全称">机型全称: </span>
+                  <span class="infoData" id="selected_typelong"></span>
                 </td>
               </tr>
               <tr>
@@ -268,7 +269,7 @@
               </tr>
               <tr>
                 <td>
-                  <span class="infoHeading" title="飞机高于平均海平面的未经校正的压力推导高度(基于大气压)">压力高度</span>:
+                  <span class="infoHeading" title="飞机高于平均海平面的未经校正的压力推导高度(基于大气压)">气压高度</span>:
                   <span class="infoData" id="selected_altitude1"></span>
                 </td>
               </tr>
@@ -489,7 +490,7 @@
           <div class="infoBlockSection">
             <div>
               <div class="infoHeading">
-                <span title="飞机高于平均海平面的未经校正的压力推导高度(基于大气压)">压力高度</span>:
+                <span title="飞机高于平均海平面的未经校正的压力推导高度(基于大气压)">气压高度</span>:
               </div>
               <div class="infoData">
                 <span id="selected_altitude2"></span>
@@ -654,7 +655,7 @@
             </div>
             <div>
               <div class="infoHeading">
-                <span title="报告的压力高度是否与另一个压力高度源进行了交叉检查">压力高度的交叉检查</span>:
+                <span title="报告的气压高度是否与另一个气压高度源进行了交叉检查">气压高度的交叉检查</span>:
               </div>
               <div class="infoData">
                 <span id="selected_nic_baro">n/a</span>
@@ -691,7 +692,7 @@
           </div>
           <button id="export_kml" onclick='exportKML("geom")'>真实高度 (EGM96)</button>
           <button id="export_kml" onclick='exportKML("geom_avg")'>气压+平均值(EGM96 - baro)</button>
-          <button id="export_kml" onclick='exportKML("baro")'>未校正压力高度</button>
+          <button id="export_kml" onclick='exportKML("baro")'>未校正气压高度</button>
 
         </div>
       </div> <!-- selected_infoblock -->
