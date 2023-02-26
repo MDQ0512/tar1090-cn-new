@@ -28,10 +28,10 @@
 
   Dump1090-mutability应该也可以安装，但飞机细节将受到限制。
 
-  ## 安装
+## 安装
 
   ```
-  sudo bash -c "$(wget -nv -O - https://gitee.com/smallmeng/tar1090-cn/raw/master/install.sh)"
+  sudo bash -c "$(wget -nv -O - https://gitee.com/smallmeng/tar1090-cn-new/raw/master/install.sh)"
   ```
 
   ## 查看已添加的web界面
